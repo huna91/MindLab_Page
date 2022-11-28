@@ -6,6 +6,9 @@ import {
   Color_Btn_Wrap,
   Color_Change_Btn,
   Forum_Wrap,
+  Forum_Content_Page,
+  Forum_Content_Title,
+  Forum_Content_Subtitle,
 } from "./styledCP_MB";
 import Circle from "./components/Circle";
 
@@ -21,7 +24,15 @@ const Forum = (color) => {
           </Suspense>
         </Canvas>
       </Canvas_Wrap>
-      <Forum_Wrap>dd</Forum_Wrap>
+      <Forum_Wrap>
+        <Forum_Content_Page>
+          <Forum_Content_Title>2022 문제해결 솔루션랩</Forum_Content_Title>
+          <Forum_Content_Title>우수사례 공유회</Forum_Content_Title>
+          <Forum_Content_Subtitle>
+            개정 교육과정과 4차산업 교육
+          </Forum_Content_Subtitle>
+        </Forum_Content_Page>
+      </Forum_Wrap>
     </>
   );
 };

@@ -22,8 +22,27 @@ const Color_Change_Btn = styled.a`
 `;
 
 const Forum_Wrap = styled.div`
+  z-index: 3;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
-export { Canvas_Wrap, Color_Btn_Wrap, Color_Change_Btn, Forum_Wrap };
+const Forum_Content_Page = styled.div``;
+const Forum_Content_Title = styled.strong`
+  margin: none;
+  font-size: 2em;
+`;
+const Forum_Content_Subtitle = styled.div``;
+
+export {
+  Canvas_Wrap,
+  Color_Btn_Wrap,
+  Color_Change_Btn,
+  Forum_Wrap,
+  Forum_Content_Page,
+  Forum_Content_Title,
+  Forum_Content_Subtitle,
+};
