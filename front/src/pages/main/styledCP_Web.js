@@ -41,7 +41,7 @@ const Canvas_Wrap = styled.div`
   width: 80vw;
   height: 80vw;
   position: absolute;
-  top: 35vh;
+  top: 42vh;
   left: 50%;
   transform: translate(calc(-50%));
 `;
@@ -51,7 +51,7 @@ const Color_Btn_Wrap = styled.div`
   display: flex;
   /* border: 1px solid red; */
   left: 51.282vw;
-  top: 6.41vw;
+  top: 8vw;
   z-index: 3;
 `;
 
@@ -109,14 +109,22 @@ const Mindlab_contents_content = styled.h2`
 const Main_Footer = styled.div`
   width: 100vw;
   height: 30vw;
+  margin-top: 20vw;
+  position: relative;
 `;
 
 const Main_Footer_Title = styled.h1`
   font-size: 25px;
+  margin-left: 10vw;
 `;
 
 const Main_Footer_content = styled.h2`
-  font-size: 17px;
+  font-size: 15px;
+  margin-top: 0;
+  display: inline;
+  position: absolute;
+  left: 25vw;
+  top: 18vw;
 `;
 
 export {

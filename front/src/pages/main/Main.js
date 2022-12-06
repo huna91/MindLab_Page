@@ -67,7 +67,7 @@ const Circle = ({ color }) => {
 };
 
 const Main = () => {
-  const [color, setColor] = useState("#0045FF");
+  const [color, setColor] = useState("#FF4059");
   function Color_Change(e) {
     switch (e) {
       case 1:
@@ -144,6 +144,7 @@ const Main = () => {
             top: "20vh",
           }}
         >
+          <h2 style={{ fontSize: "0.8em" }}># 우리의 상상력 실험실</h2>
           <img src="./images/main/1_logo.png" />
         </div>
         <Canvas_Wrap>
@@ -226,14 +227,52 @@ const Main = () => {
         <Page_Position>
           <Title style={{ marginRight: "60vw" }}>교구</Title>
           <img src="./images/main/parish_1.png" style={{ width: "80vw" }} />
+          <Title style={{ marginRight: "60vw" }}>발자취</Title>
+          {/* 나중에 슬라이드로 구현 */}
+          <div
+            style={{
+              textAline: "center",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src="./images/main/makertone.jpg"
+              style={{ width: "80vw", borderRadius: "20px" }}
+            />
+
+            <p
+              style={{
+                marginTop: "10px",
+                marginBottom: "3px",
+                fontSize: "6vw",
+                fontWeight: "800",
+              }}
+            >
+              경기콘텐츠진흥원
+            </p>
+            <p
+              style={{
+                marginTop: "10px",
+                marginBottom: "3px",
+                fontSize: "6vw",
+                fontWeight: "800",
+              }}
+            >
+              최우수상 수상
+            </p>
+          </div>
         </Page_Position>
-        <Main_Footer>
-          <Main_Footer_Title>Contact</Main_Footer_Title>
-          <Main_Footer_content>
-            <img src="./images/Mail_Icon_Black.png" style={{ width: "8vw" }} />
-          </Main_Footer_content>
-        </Main_Footer>
       </Page_Wrap>
+      <Main_Footer>
+        <Main_Footer_Title>Contact</Main_Footer_Title>
+        <img
+          src="./images/Mail_Icon_Black.png"
+          style={{ width: "8vw", marginLeft: "10vw" }}
+        />
+        <Main_Footer_content>maindlab@googlegroups.com</Main_Footer_content>
+      </Main_Footer>
     </Main_Wrap>
   );
 };
