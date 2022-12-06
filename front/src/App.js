@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Header setC_color={setC_color} />
       <Routes>
-        {/* <Route path="/" element={<Main />} /> */}
-        <Route path="/" element={<Forum color={C_color} />} />
+        <Route path="/" element={<Main />} />
+        {/* <Route path="/" element={<Forum color={C_color} />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/partner" element={<Partner />} />
         <Route path="/shop" element={<Shop />} />

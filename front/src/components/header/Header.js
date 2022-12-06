@@ -23,28 +23,7 @@ const Header = () => {
         <Header_Home_Tag href="/">
           <Header_Home_Img src="./images/Mindlab_Logo.png" />
         </Header_Home_Tag>
-        <Color_Btn_Wrap>
-          <Color_Change_Btn
-            color="#0045FF"
-            onTouchEnd={Color_Chage}
-          ></Color_Change_Btn>
-          <Color_Change_Btn
-            color="#40FFFF"
-            onTouchEnd={Color_Chage}
-          ></Color_Change_Btn>
-          <Color_Change_Btn
-            color="#BFFF00"
-            onTouchEnd={Color_Chage}
-          ></Color_Change_Btn>
-          <Color_Change_Btn
-            color="#8C73FF"
-            onTouchEnd={Color_Chage}
-          ></Color_Change_Btn>
-          <Color_Change_Btn
-            color="#FF4059"
-            onTouchEnd={Color_Chage}
-          ></Color_Change_Btn>
-        </Color_Btn_Wrap>
+
         <Header_Navi_Bar>
           <Header_Naviul>
             {/* <Header_Navili>

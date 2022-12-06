@@ -48,24 +48,6 @@ const Header_Nav_tag = styled.a`
   }
 `;
 
-const Color_Btn_Wrap = styled.div`
-  position: absolute;
-  display: flex;
-  left: 200px;
-  top: 25px;
-`;
-
-const Color_Change_Btn = styled.button`
-  color: black;
-  cursor: pointer;
-  margin: 5px;
-  width: 20px;
-  height: 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: ${(props) => props.color};
-`;
-
 export {
   Header_Wrap,
   Header_Home_Tag,
@@ -74,6 +56,4 @@ export {
   Header_Naviul,
   Header_Navili,
   Header_Nav_tag,
-  Color_Btn_Wrap,
-  Color_Change_Btn,
 };
